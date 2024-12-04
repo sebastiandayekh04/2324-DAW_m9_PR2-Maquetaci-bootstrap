@@ -1,0 +1,11 @@
+
+@import './_mixins.scss';
+@import './styles/_variables.scss';
+@import 'node_modules/bootstrap/scss/bootstrap';
+
+
+
+// Personalización
+body {
+  font-family: $font-family-base;
+}

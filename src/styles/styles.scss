@@ -1,0 +1,119 @@
+
+@import "variables";
+
+
+body {
+  font-family: $font-family;
+}
+
+
+.container {
+  margin-top: 20px;
+}
+
+.navbar-brand {
+  font-size: 40px;
+  letter-spacing: $espacio;
+  color: $verde;
+}
+
+.navbar-nav {
+  .nav-link {
+    font-size: $font-size;
+    letter-spacing: $espacio;
+  }
+
+  .nav-item {
+    margin-right: 15px;
+    color: $negro;
+  }
+}
+
+.custom-text {
+  font-size: $font-custom-title;
+  font-weight: 600;
+  line-height: 82px;
+  text-align: center;
+  color: $negro;
+}
+
+p {
+  font-size: $font-custom-paragraph;
+  font-weight: 50;
+}
+
+.btnRedondo {
+  padding: 16px;
+  gap: 16px;
+  width: 211px;
+  height: 56px;
+  background-color: $verde;
+  border-radius: 67px;
+}
+
+.cuadrado {
+  width: 50%;
+  height: auto;
+  border-radius: $bordes;
+}
+
+.icono {
+  border-radius: 20%;
+  width: 60px;
+}
+
+.bordeRedondo {
+  border-radius: 20px;
+  padding-left: 50px;
+}
+
+.rosado {
+  background-color: $rosa;
+  width: 90%;
+  border-radius: $bordes;
+  position: absolute;
+}
+
+.espacio {
+  margin: 150px;
+}
+
+
+.footer {
+  background-color: $verde;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.iconoRedes {
+  font-size: 1.5rem;
+  margin-left: 25px;
+}
+
+.navbar-light.bg-white {
+    background-color: #fff !important; 
+}
+
+
+.navbar-nav .nav-link {
+    color: #333 !important; 
+}
+
+
+.navbar-nav {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: flex-start; 
+}
+
+@media (max-width: 991px) {
+    .navbar-nav {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+}
+
+
+
+@import "bootstrap/scss/bootstrap";
