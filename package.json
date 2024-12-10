@@ -11,12 +11,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "node": "^22.12.0",
-    "vite": "^6.0.1"
+    "bootstrap": "^5.3.3"
   },
   "devDependencies": {
-    "sass": "^1.81.0"
+    "sass": "^1.81.0",
+    "vite": "^6.0.3"
   },
   "description": ""
 }
