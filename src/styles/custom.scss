@@ -1,0 +1,93 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+$primary-color: #285E67;
+$dark-color: #2B2B2B;
+$border-radius: 30px;
+$light-gray: #F4F4F4;
+$font-size: 1.25rem;
+$letter-spacing: 2px;
+
+.brand-green {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: $primary-color;
+    text-decoration: none;
+}
+
+.navbar-nav {
+    .nav-link {
+        font-size: $font-size;
+        letter-spacing: $letter-spacing;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+        color: $dark-color;
+    }
+}
+
+.headline-text {
+    font-size: 65.34px;
+    font-weight: 600;
+    line-height: 82px;
+    text-align: center;
+    color: $dark-color;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 50;
+}
+
+.btn-rounded {
+    padding: 16px;
+    gap: 16px;
+    width: 211px;
+    height: 56px;
+    background-color: $primary-color;
+    border-radius: 67px;
+}
+
+.image-square {
+    border-radius: $border-radius;
+}
+
+.icon {
+    border-radius: 20%;
+    width: 60px;
+    padding: auto;
+}
+
+.rounded-border {
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+.spacing {
+    margin: 150px;
+}
+
+.light-background {
+    background-color: hsl(18, 86%, 92%);
+    width: 90%;
+    border-radius: $border-radius;
+    position: absolute;
+}
+
+.footer {
+    background-color: $primary-color;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.social-icon {
+    font-size: 1.5rem;
+    margin-right: 25px;
+}

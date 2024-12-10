@@ -1,0 +1,61 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.brand-green {
+  font-size: 28px;
+  color: #007BFF;
+  text-decoration: none;
+}
+
+.navbar-nav .nav-link {
+  font-size: 1.2rem;
+  margin-right: 15px;
+  color: #333333;
+}
+
+.headline-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+}
+
+.btn-rounded {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #007BFF;
+  color: white;
+}
+
+.image-square {
+  border-radius: 20px;
+}
+
+.icon {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.rounded-border {
+  border-radius: 20px;
+}
+
+.spacing {
+  margin: 80px 0;
+}
+
+.footer {
+  background-color: #007BFF;
+  padding: 20px;
+  color: white;
+}
+
+.social-icon {
+  font-size: 1.5rem;
+  margin-right: 15px;
+}/*# sourceMappingURL=custom.css.map */
